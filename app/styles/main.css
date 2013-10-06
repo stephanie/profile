@@ -45,9 +45,9 @@ h1 {
 }
 #page {
   font-family: 10pt sans-serif;
-  height: 725px;
-  width: 1176px;
-  margin: 75px auto 80px auto;
+  height: 100%;
+  width: 100%;
+  margin: 45px auto 0 auto;
   text-align: center;
 }
 ul {
@@ -86,30 +86,20 @@ h3 {
   height: 37px;
   padding-left: -8px;
 }
-#page .text-box {
-  height: 377px;
-  width: 377px;
-  float: left;
-  position: relative;
-  margin: 7px;
-}
 #page .box {
-  height: 360px;
-  width: 360px;
-  border: 8px solid white;
-  outline: 1px solid rgb(234,232,226);
+  height: 435px;
+  width: 33.33%;
   cursor: pointer;
   background: gray;
   float: left;
   position: relative;
-  margin: 7px;
   overflow: hidden;
 }
 #page .box img {
   position: absolute;
   left: 0;
-  width: 360px;
-  height: 360px;
+  width: 100%;
+  height: 435px;
   transition: all 600ms ease-out;
   -webkit-transition: all 600ms ease-out;
   -moz-transition: all 600ms ease-out;
@@ -126,8 +116,8 @@ h3 {
   -webkit-transition: all 600ms ease-out;
   -moz-transition: all 600ms ease-out;
   opacity: 0;
-  width: 360px;
-  height: 360px;
+  width: 100%;
+  height: 435px;
   text-align: left;
 }
 h4 {
