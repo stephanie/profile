@@ -36,12 +36,12 @@ body {
 }
 h1 { 
   padding-left: 15px;
-  padding-top: 270px;
+  padding-top: 230px;
   text-align: left;
   font-family: 'Raleway', sans-serif;
-  font-size: 50px;
+  font-size: 80px;
   color: white;
-  line-height: 1%;
+  line-height: 50%;
 }
 #page {
   font-family: 10pt sans-serif;
@@ -82,9 +82,11 @@ h3 {
   padding-left: 10px;
 }
 .icon {
-  width: 37px;
-  height: 37px;
+  width: 80px;
+  height: 80px;
   padding-left: -8px;
+  padding-top: 50px;
+  margin-bottom: -15px;
 }
 #page .box {
   height: 435px;

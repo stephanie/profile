@@ -324,4 +324,7 @@ module.exports = function (grunt) {
         'test',
         'build'
     ]);
+
+    // To enable Compass
+    grunt.loadNpmTasks('grunt-contrib-compass');
 };
