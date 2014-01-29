@@ -22,10 +22,15 @@
     <body>
         <div id="homepage">
             <div class="layer">
-                <h1>stephanie siaw <a href=mailto:siaw.stephanie@gmail.com>
-                    <img class="icon" id="email" src="images/email-icon.png" />
-                    </a><a href="portfolio.html">
-                     <img class="icon" id="folder" src="images/folder-icon.png" />
+                <h1>stephanie siaw 
+                    <a href=mailto:siaw.stephanie@gmail.com onmouseover="nhpup.popup('Go ahead, send me an email :)');">
+                        <img class="icon" id="email" src="images/email-icon.png" />
+                    </a>
+                    <a href="portfolio.html" onmouseover="nhpup.popup('My Portfolio');">
+                        <img class="icon" id="folder" src="images/folder-icon.png" />
+                    </a>
+                    <a href="portfolio.html" onmouseover="nhpup.popup('My Resume');">
+                        <img class="icon" id="folder" src="images/folder-icon.png" />
                     </a>
                 </h1>
             </div>        
@@ -33,6 +38,7 @@
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/jquery.js"></script>
+        <script type="text/javascript" src="bower_components/nhpup_1.1.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
