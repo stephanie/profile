@@ -1,0 +1,202 @@
+body {
+  background: white;
+  margin: 0px;
+}
+
+#header {
+  background: rgb(80,80,80);
+  color: white;
+  height: 45px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  margin: 0px auto;
+  padding-top: 10px;
+  z-index: 95;
+  display: inline;
+  clear: both;
+}
+
+#homepage {
+  background: url("../images/me.jpg");
+  color: white;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.layer {
+  background-color: rgba(255, 69, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  padding-left: 15px;
+  padding-top: 250px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 4.4em;
+  color: white;
+  line-height: 100%;
+}
+
+#page {
+  font-family: 10pt sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 45px auto 0 auto;
+  text-align: center;
+}
+
+ul {
+  margin-top: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+}
+
+a {
+  text-decoration: none;
+  color: #999999;
+}
+
+li {
+  display: inline;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+h2 {
+  padding-left: 15px;
+  padding-top: 50px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
+  display: inline;
+  font-weight: 400;
+}
+
+h3 {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  color: white;
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  padding-left: -8px;
+}
+
+#page .box {
+  height: 435px;
+  width: 33.33%;
+  cursor: pointer;
+  background: gray;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+#page .box img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 435px;
+  transition: all 600ms ease-out;
+  -webkit-transition: all 600ms ease-out;
+  -ms-transition: all 600ms ease-out;
+}
+
+#page .box .caption-fade {
+  background-color: rgba(238,92,66,0.65);
+  position: absolute;
+  color: #fff;
+  z-index: 90;
+  left: 0;
+  transition: all 600ms ease-out;
+  -webkit-transition: all 600ms ease-out;
+  opacity: 0;
+  width: 100%;
+  height: 435px;
+  text-align: left;
+}
+
+h4 {
+  font-size: 30px;
+  font-family: 'Raleway';
+  padding: 20px;
+  margin-top: 2px;
+  text-align: right;
+}
+
+h5 {
+  margin-top: -85px;
+  margin-right: -8px;
+  line-height: 25px;
+  padding: 30px;
+  font-family: 'Quattrocento', serif;
+  font-size: 18px;
+  text-align: right;
+}
+
+p {
+  margin-top: -45px;
+  margin-right: -8px;
+  line-height: 25px;
+  padding: 30px;
+  font-family: 'Quattrocento', serif;
+  font-size: 18px;
+  text-align: right;
+}
+
+#page .box:hover .caption-fade {
+  opacity: 1;
+}
+
+.nav_list {
+  float: right;
+}
+
+#pup {
+  position: absolute;
+  z-index: 200;
+  /* aaaalways on top*/
+  padding-right: -5px;
+  padding-left: -5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 18px;
+  margin-top: 18px;
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 10px;
+}
+
+#full-resume {
+  background: url("../images/resume.jpg");
+  background-size: cover;
+  margin-top: 50px;
+  width: 80%;
+  height: 80%;
+}
+
+#resume-wrapper-outer,
+#resume-wrapper-inner {
+  text-align: center;
+}
