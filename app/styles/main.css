@@ -1,12 +1,15 @@
-body {
-  background: white;
-  margin: 0px;
+/* My styles */
 
+body, html {
+  background: white;
+  margin: 0;
+  height: 100%;
+  font-size: 100%;
 }
 #header {
-  background: rgb(80,80,80);
+  background: rgb(255, 69, 0);
   color: white;
-  height: 35px;
+  height: 45px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -42,7 +45,7 @@ h1 {
   font-weight: 300;
   font-size: 4.4em;
   color: white;
-  line-height: 100%;
+  line-height: 180%;
 }
 #page {
   font-family: 10pt sans-serif;
@@ -58,7 +61,11 @@ ul {
 }
 a {
   text-decoration: none;
-  color: #999999;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
 }
 li {
   display: inline;
@@ -109,7 +116,7 @@ h3 {
   -ms-transition: all 600ms ease-out;
 }
 #page .box .caption-fade {
-  background-color: rgba(238,92,66,0.65);
+  background-color: rgba(0,0,0,0.8);
   position: absolute;
   color: #fff;
   z-index: 90;
@@ -123,20 +130,23 @@ h3 {
   text-align: left;
 }
 h4 {
-  font-size: 30px;
-  font-family: 'Raleway';
+  font-size: 2.1em;
+  font-family: 'Raleway', sans-serif;
   padding: 20px;
   margin-top: 2px;
   text-align: right;
+  line-height: 1em;
 }
 h5 {
   margin-top: -85px;
   margin-right: -8px;
   line-height: 25px;
   padding: 30px;
-  font-family: 'Quattrocento', serif;
-  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
   text-align: right;
+  line-height: 1.4em;
 }
 p {
   margin-top: -45px;
@@ -156,19 +166,22 @@ p {
 #pup {
   position:absolute;
   z-index: 200; /* aaaalways on top*/
-  padding-right: -5px;
-  padding-left: -5px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-left: 18px;
-  margin-top: 18px;
+  padding-right: -15px;
+  padding-left: -15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 85%;
   display: inline-block;
   text-align: center;
   background-color: rgba(0,0,0,0.6);
   color: white;
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-family: 'Raleway', sans-serif;
   border-radius: 10px;
+  font-weight: 300;
+}
+#email-popup {
+  font-size: 0.9em;
 }
 #full-resume {
   background: url("../images/resume.jpg");
@@ -180,4 +193,26 @@ p {
 #resume-wrapper-outer, 
 #resume-wrapper-inner {
   text-align: center
+}
+.box-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 320px) {
+    html { font-size: 50%; }
+}
+
+@media (min-width: 480px) {
+    html { font-size: 60%; }
+}
+
+@media (min-width: 700px) {
+    html { font-size: 80%; }
+}
+
+@media (min-width: 1024px) {
+    html { font-size: 100%; }
 }
