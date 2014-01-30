@@ -1,7 +1,11 @@
 {
   "name": "github-yeoman-steph-profile",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "coffee-script": "~1.7.0",
+    "gzippo": "~0.2.0",
+    "express": "~3.4.8"
+  },
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-copy": "~0.4.1",
@@ -27,5 +31,22 @@
   },
   "engines": {
     "node": ">=0.8.0"
+  },
+  "description": "github_yeoman_steph_profile ===========================",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephs829/github_yeoman_steph_profile.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/stephs829/github_yeoman_steph_profile/issues"
   }
 }
