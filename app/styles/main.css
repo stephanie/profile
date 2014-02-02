@@ -1,0 +1,123 @@
+/* My styles */
+
+body, html {
+  font-size: 100%;
+  height: 100%;
+  margin: 0;
+}
+#header {
+  background: #2D3642;
+  color: white;
+  height: 45px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  margin: 0px auto;
+  padding-top: 12px;
+  z-index: 95;
+  display: inline;
+  clear: both;
+}
+#page {
+  width: 100%;
+  margin: 45px auto 0 auto;
+}
+ul {
+  margin-top: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: #FF706C;
+  -webkit-transition: color 0.5s ease-in;
+  -moz-transition: color 0.5s ease-in;
+  -o-transition: color 0.5s ease-in;
+  -ms-transition: color 0.5s ease-in;
+  transition: color 0.5s ease-in;
+}
+li {
+  display: inline;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+h2 {
+  padding-left: 20px;
+  padding-top: 50px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
+  display: inline;
+  font-weight: 300;
+}
+h3 {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  color: white;
+  padding-top: 13px;
+  padding-left: 10px;
+}
+p {
+  margin-top: -45px;
+  margin-right: -8px;
+  line-height: 25px;
+  padding: 30px;
+  font-family: 'Quattrocento', serif;
+  font-size: 18px;
+  text-align: right;
+}
+.nav_list {
+  float: right;
+  display: inline-block;
+}
+#email-popup {
+  font-size: 0.9em;
+}
+#full-resume {
+  background: url("../images/resume.jpg");
+  background-size: cover;
+  margin-top: 50px;
+  width: 80%;
+  height: 80%;
+}
+#resume-wrapper-outer, 
+#resume-wrapper-inner {
+  text-align: center
+}
+
+.large-block-grid-3 > li {
+    padding: 0;
+}
+
+.small-block-grid-1 > li {
+    padding: 0;
+}
+.thumbcaption .thumbcaption-title {
+  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1em;
+  font-weight: 500;
+  color: white;
+}
+
+.thumbcaption .thumbcaption-description {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 1.3em;
+  color: rgb(45,53,65);
+}
+
+.thumbcaption .box-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #CBD9E1;
+}
