@@ -1,9 +1,8 @@
 /* My styles */
-
 body, html {
-  font-size: 100%;
-  height: 100%;
   margin: 0;
+  height: 100%;
+  font-size: 100%;
 }
 #header {
   background: #2D3642;
@@ -72,6 +71,70 @@ p {
   font-size: 18px;
   text-align: right;
 }
+#homepage {
+  background: url("../images/me.jpg");
+  color: white;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.layer {
+  background-color: rgba(255, 69, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#index-title { 
+  padding-left: 20px;
+  padding-top: 210px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 4.6em;
+  color: white;
+  line-height: 120%;
+}
+#index-h2 {
+  padding-left: 20px;
+  top: -20px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.3em;
+  color: white;
+  display: inline;
+  font-weight: 200;
+  position: relative;
+}
+.icon {
+  width: 80px;
+  height: 80px;
+  padding-left: -8px;
+}
+#pup {
+  z-index: 200; /* aaaalways on top*/
+  text-align: center;
+  background: #9Ab2c1;
+  font-size: 1.6em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: white;
+  max-width: 32%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  display: inline-block; /* needed for anchors */
+  position: relative;
+  box-shadow: 1px 0px #5C6B74, 0px 1px #7B8E9A,
+              2px 1px #5C6B74, 1px 2px #7B8E9A,
+              3px 2px #5C6B74, 2px 3px #7B8E9A,
+              4px 3px #5C6B74, 3px 4px #7B8E9A,
+              5px 4px #5C6B74, 4px 5px #7B8E9A,
+              6px 5px #5C6B74, 5px 6px #7B8E9A;
+}
 .nav_list {
   float: right;
   display: inline-block;
@@ -120,4 +183,30 @@ p {
   font-size: 1em;
   text-transform: uppercase;
   color: #CBD9E1;
+}
+@media (min-width: 220px) {
+    html { font-size: 50%; }
+}
+@media (max-width: 400px) {
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media (max-width: 700px) and (min-width: 400px) {
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (min-width: 480px) {
+    html { font-size: 60%; }
+}
+
+@media (min-width: 700px) {
+    html { font-size: 80%; }
+}
+
+@media (min-width: 1024px) {
+    html { font-size: 100%; }
 }
